@@ -3,11 +3,79 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 main {
+    margin-bottom: 60px;
     h1 {
         text-align: center;
-        color: #333;
-        margin: 2rem 0;
+        margin: 20px 0;
     }
+
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+
+/* Others pages */
+.h1-success {
+    text-align: center;
+    margin: 20px 0;
+    color: green;
+}
+
+.success-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+
+    iframe {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        border: none;
+        width: 100%;
+        max-width: 500px;
+        height: 300px;
+    }
+
+    a {
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 10px;
+        border-radius: 5px;
+        width: 100px;
+    }
+
+    a:hover {
+        background-color: green;
+    }
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: 200;
 }
